@@ -1,4 +1,4 @@
-# game made by @Ducky McDuckerson on Youtube
+# game made by @jlk Teal on Youtube
 
 import time
 
