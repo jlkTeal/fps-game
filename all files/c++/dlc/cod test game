@@ -1,15 +1,15 @@
-# game made by @Ducky McDuckerson on Youtube
+# game made by @Ducky McDuckerson and @jlk Teal on Youtube
 
 import time
 
-def main():
+def lkjp():
     name = input("your name?\n")
     
     print("well, " +name+ " this is a test, are you ready?")
     
-    introScene()
+    introg()
     
-def introScene():
+def introg():
     userInput = ""
     userInput = input()
     if userInput == "yes":
@@ -21,7 +21,7 @@ def introScene():
         time.sleep(3)
         print("your choices are; Mw2, Bo2, Bo1, Infinite Warfare, Ghosts, Mw2 2022, Mw 2019, Cold War, or Bo3")
         time.sleep(2)
-        bn()
+        bnh()
         
     elif userInput == "no":
         print("ok then, that's it i guess")
@@ -33,7 +33,7 @@ def introScene():
         time.sleep(2)
         introScene()
         
-def bn():
+def bnh():
     userInput = ""
     userInput = input()
     if userInput == "Mw2":
@@ -93,7 +93,7 @@ def bn():
     else:
         print("that is not an answer")
         time.sleep(2)
-        bn()
+        bnh()
         
 def tr():
     userInput = ""
@@ -101,19 +101,19 @@ def tr():
     time.sleep(3)
     print("what is the most toxic thing on this list?")
     time.sleep(3)
-    print("choose from; riot shield campers, fire shotgun users, and t-baggers")
+    print("choose from; riot shield campers(1), fire shotgun users(2), and t-baggers(3)")
     userInput = input()
-    if userInput == "riot shield campers":
+    if userInput == "1":
         print("no, but very annoying and toxic")
         time.sleep(3)
         quit()
         
-    elif userInput == "fire shotgun users":
+    elif userInput == "2":
         print("and you are correct, continue on")
         time.sleep(3)
         gt()
         
-    elif userInput == "t-baggers":
+    elif userInput == "3":
         print("no, but very toxic")
         time.sleep(3)
         quit()
@@ -134,21 +134,21 @@ def gt():
     time.sleep(3)
     print("what's the most hated thing on this list")
     time.sleep(3)
-    print("list includes; sbmm, sweats, and bland colors")
+    print("list includes; sbmm(1), sweats(2), and bland colors(3)")
     userInput = input()
-    if userInput == "sbmm":
+    if userInput == "1":
         print("and that is correct")
         time.sleep(2)
         print("which story do you want?")
         time.sleep(2)
-        different()
+        gtr()
         
-    elif userInput == "sweats":
+    elif userInput == "2":
         print("no, but very hated")
         time.sleep(3)
         quit()
         
-    elif userInput == "bland colors":
+    elif userInput == "3":
         print("no, but not liked either")
         time.sleep(3)
         quit()
@@ -165,7 +165,7 @@ def gt():
         
         
       
-def different():
+def gtr():
     userInput = ""
     print("choose from: matrix, or dog")
     userInput = input()
@@ -229,4 +229,4 @@ def different():
         time.sleep(2)
         different()
         
-main()
+lkjp()
